@@ -1,5 +1,5 @@
 <?php
-$name = "takumi";
+$name = "Takumi";
 if ($name == "Takumi" ) {
    echo "私はTakumiです。";
 }  else {
