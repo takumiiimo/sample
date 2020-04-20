@@ -1,9 +1,9 @@
 <?php
-$namae = "Takumi";
-if ($name = "Takumi") {
-   echo "私はたくみです。";
+$name = "takumi";
+if ($name == "Takumi" ) {
+   echo "私はTakumiです。";
 }  else {
-   "私はたくみではありません。";
+   echo "私はTakumiではありません。";
 }
 
  $total = 0;
@@ -16,8 +16,8 @@ echo "\n";
 
 
 $fruits = array("りんご","いちご","スイカ","キウイ","パイナップル");
-foreach ($fruits as $fruits) {
-    echo $fruits;
+foreach ($fruits as $fruit) {
+    echo $fruit;
     echo "\n";
 }
 
